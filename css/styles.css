@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --title: 'Redressed', cursive;
+    --main: 'Source Sans Pro', sans-serif;
+    --primary: teal;
+    --secondary: brown;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--title);
+    color: var(--primary);
+}
+
+/* Header */
+header nav {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    background-color: teal;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+header nav h1 {
+    color: white;
+    padding: 10px;
+}
+
+header nav #menu {
+    color: white;
+    display: flex;
+    padding: 5px;
+}
+
+header nav div a {
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+}
+
+header nav div a article {
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+/* Main */
+main h2 {
+    text-align: center;
+}
