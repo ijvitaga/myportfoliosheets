@@ -15,3 +15,4 @@ This is my portfolio made using google sheets, shoelace, jquery, and web compone
     2. Shoelace
     3. Jquery
     4. Web Components
+    5. Netlify
